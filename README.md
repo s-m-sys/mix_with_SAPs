@@ -3,7 +3,7 @@
 **Following explains the procedure to run the Training of the agent and data saved during the training**
 
 
-Code for training an RL agent - PYTHON_C_MIXING_v1.ipynb
+Code for training an RL agent - PYTHON_C_MIXING_v1.ipynb - run the entire code in jupyter notebook all at once.
 
 The initial position of particles is in 'ini_state_q1.csv' : column wise data - x position, y position, particle radius and particle type
 
@@ -23,7 +23,7 @@ The following folders are created:
 **Following Explains the procedure to run testing of a trained agent and data saved during the testing**
 
 
-Code for training an RL agent - test_run.ipynb
+Code for training an RL agent - test_run.ipynb - run the entire code in jupyter notebook all at once.
 
 The initial position of particles is in 'ini_state_q1.csv' : column wise data - x position, y position, particle radius and particle type
 
