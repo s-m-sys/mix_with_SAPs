@@ -54,7 +54,7 @@ Needs ini_state_q1.csv as the source file to create the image
 
 **Figure_3_a:**
 Open the file imageGen.ipynb and run all the files together
-Needs the source files as t_500.txt, t_5000.txt, t_15000.txt, t_50000.txt to create the images
+Needs the source files as ini_state_q1.txt, t_500.txt, t_5000.txt, t_15000.txt, t_50000.txt to create the images
 
 **Figure_3_b:**
 Open the file act_particle_loci_cmap_from_active_data.ipynb and run all the cells together
@@ -63,22 +63,22 @@ Needs two files for running: ini_state_q1.txt, RT_active_data.csv. RT_active_dat
 **Figure_4:**
 Figure_4_a_traj:
 Open the file trajectory_plots.ipynb and run all the cells together
-Needs ini_state_q1.csv and test files trajectory_11.txt, trajectory_42.txt, trajectory_121.txt
+Needs ini_state_q1.txt and test files trajectory_11.txt, trajectory_42.txt, trajectory_121.txt
 Figure_4_b_prob_occurance:
 Open the file heat_map_from_data.ipynb and run all the cells together
 Need the files part_occur_data_RT1.csv and part_occur_data_RT2.csv
 
 **Figure_5:**
 For Trained:
-Run imageGen.ipynb along with files state_500.csv, state_5000.csv, state_15000.csv, state_50000.csv in the corresponding folder
+Run imageGen.ipynb along with files state_500.csv, state_5000.csv, state_15000.csv, state_50000.csv in the folder
 For non-Trained:
-Run imageGen.ipynb along with files state_500.csv, state_5000.csv, state_15000.csv, state_50000.csv in the corresponding folder
+Run imageGen.ipynb along with files state_500.csv, state_5000.csv, state_15000.csv, state_50000.csv in the folder
 
 **Figure_6:**
 Fig_6_a_i:
-Open the file act_particle_lovi_cmap_from_act_data.ipynb and run all the cells together along with the files active_data_NTSAP.csv and ini_state_q1.txt
+Open the file act_particle_loci_cmap_from_act_data.ipynb and run all the cells together along with the files active_data_NTSAP.csv and ini_state_q1.txt
 Fig_6_a_ii:
-Open the file act_particle_lovi_cmap_from_act_data.ipynb and run all the cells together along with the files active_data_TSAP.csv and ini_state_q1.txt
+Open the file act_particle_loci_cmap_from_act_data.ipynb and run all the cells together along with the files active_data_TSAP.csv and ini_state_q1.txt
 Fig_6_b:
 Open the file traj_active_from_data.ipynb and run all the cells together along with ini_state_q1.txt and trajectory_data.csv
 Fig_6_c_inset:
@@ -98,5 +98,4 @@ Fig_8_c:
 Open file Ridge_plot_from_data.ipynb along with the folder ridge_data - contains data on angular velocity of passive particles
 
 **Figure_9:**
-Open the file Consolidated_figs_delta_fixed_gamma_varying.ipynb along with the file TSAP_MI_data.csv
-
+Open the file Consolidated_figs_delta_fixed_gamma_varying.ipynb along with the folder TSAP_MI_data
