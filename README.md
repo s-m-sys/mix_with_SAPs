@@ -50,7 +50,7 @@ ini_state_q1.csv as well as ini_state_q1.txt contains x,y data for the particles
 Open the file imageGen.ipynb and run all the cells together
 Needs ini_state_q1.csv as the source file to create the image
 
-**Figure_3:**
+**Figure_3_RT_snapshots:**
 
 Figure_3_a:
 Open the file imageGen.ipynb and run all the files together
