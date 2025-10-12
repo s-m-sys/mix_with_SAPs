@@ -64,6 +64,7 @@ Needs two files for running: ini_state_q1.txt, RT_active_data.csv. RT_active_dat
 Figure_4_a_traj:
 Open the file trajectory_plots.ipynb and run all the cells together
 Needs ini_state_q1.txt and test files trajectory_11.txt, trajectory_42.txt, trajectory_121.txt
+
 Figure_4_b_prob_occurance:
 Open the file heat_map_from_data.ipynb and run all the cells together
 Need the files part_occur_data_RT1.csv and part_occur_data_RT2.csv
@@ -77,12 +78,16 @@ Run imageGen.ipynb along with files state_500.csv, state_5000.csv, state_15000.c
 **Figure_6:**
 Fig_6_a_i:
 Open the file act_particle_loci_cmap_from_act_data.ipynb and run all the cells together along with the files active_data_NTSAP.csv and ini_state_q1.txt
+
 Fig_6_a_ii:
 Open the file act_particle_loci_cmap_from_act_data.ipynb and run all the cells together along with the files active_data_TSAP.csv and ini_state_q1.txt
+
 Fig_6_b:
 Open the file traj_active_from_data.ipynb and run all the cells together along with ini_state_q1.txt and trajectory_data.csv
+
 Fig_6_c_inset:
 Open the file consolidated_mean_curves_RTP.ipynb and run all the cells together along with the folders tau_5 till tau_40 in the folder
+
 Fig_6_c_main:
 Open the file plotting_graphs_with_band.ipynb along with the files MI_vs_Time_non_opt.csv, MI_vs_Time_opt.csv and ini_state_q1.txt
 
@@ -92,8 +97,10 @@ This is a matlab file - dist_fit.m. Run along with neigh_listing which has data 
 **Figure_8:**
 Fig_8_a:
 Open the file quiver_colour_plots.ipynb along with the files ini_state_q1.txt, trajectory_11.txt, trajectory_42.txt and trajectory_121.txt
+
 Fig_8_b:
 Open the file quiver_colour_plots.ipynb alng with the files ini_state_q1.txt and trajectory_9.txt
+
 Fig_8_c:
 Open file Ridge_plot_from_data.ipynb along with the folder ridge_data - contains data on angular velocity of passive particles
 
