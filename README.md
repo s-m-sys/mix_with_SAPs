@@ -43,24 +43,25 @@ The file 'MI_vs_Time.csv' gives mixing index (MI) obtained at defined time over 
 
 ***Folder - Figures_and_data***
 
-All the files in the folder are written in Jupyter Notebook
+Codes in the folder are written in Jupyter Notebook and Matlab(for Figure_7)
 ini_state_q1.csv as well as ini_state_q1.txt contains x,y data for the particles at time, t=0 (x data available in first column and y data available in 2nd column)
 
 **Figure_1_a_initial_distribution:**
-
 Open the file imageGen.ipynb and run all the cells together
 Needs ini_state_q1.csv as the source file to create the image
 
+**Figure_3:**
 
-**Figure_3_a:**
+Figure_3_a:
 Open the file imageGen.ipynb and run all the files together
 Needs the source files as ini_state_q1.txt, t_500.txt, t_5000.txt, t_15000.txt, t_50000.txt to create the images
 
-**Figure_3_b:**
+Figure_3_b:
 Open the file act_particle_loci_cmap_from_active_data.ipynb and run all the cells together
 Needs two files for running: ini_state_q1.txt, RT_active_data.csv. RT_active_data.csv contains the x,y positions of the active particles at definite time intervals, which is also given in the file
 
 **Figure_4:**
+
 Figure_4_a_traj:
 Open the file trajectory_plots.ipynb and run all the cells together
 Needs ini_state_q1.txt and test files trajectory_11.txt, trajectory_42.txt, trajectory_121.txt
@@ -70,12 +71,14 @@ Open the file heat_map_from_data.ipynb and run all the cells together
 Need the files part_occur_data_RT1.csv and part_occur_data_RT2.csv
 
 **Figure_5:**
+
 For Trained:
 Run imageGen.ipynb along with files state_500.csv, state_5000.csv, state_15000.csv, state_50000.csv in the folder
 For non-Trained:
 Run imageGen.ipynb along with files state_500.csv, state_5000.csv, state_15000.csv, state_50000.csv in the folder
 
 **Figure_6:**
+
 Fig_6_a_i:
 Open the file act_particle_loci_cmap_from_act_data.ipynb and run all the cells together along with the files active_data_NTSAP.csv and ini_state_q1.txt
 
@@ -95,6 +98,7 @@ Open the file plotting_graphs_with_band.ipynb along with the files MI_vs_Time_no
 This is a matlab file - dist_fit.m. Run along with neigh_listing which has data about neighbour count of particles at definite time for an optimal case and non optimal case. For selecting the distribution and fit for a given time put corresponding value for T at the matlab code. for the attached file, T=50000
 
 **Figure_8:**
+
 Fig_8_a:
 Open the file quiver_colour_plots.ipynb along with the files ini_state_q1.txt, trajectory_11.txt, trajectory_42.txt and trajectory_121.txt
 
