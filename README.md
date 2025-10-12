@@ -41,7 +41,7 @@ The following folders are created:
 		   
 The file 'MI_vs_Time.csv' gives mixing index (MI) obtained at defined time over multiple test episodes. First column stands for time and rest all columns gives the MI for each test episode against the time.
 
-***Folder -***
+***Folder - Figures_and_data***
 
 All the files in the folder are written in Jupyter Notebook
 ini_state_q1.csv as well as ini_state_q1.txt contains x,y data for the particles at time, t=0 (x data available in first column and y data available in 2nd column)
