@@ -66,7 +66,7 @@ Figure_4_a_traj:
 Open the file trajectory_plots.ipynb and run all the cells together
 Needs ini_state_q1.txt and test files trajectory_11.txt, trajectory_42.txt, trajectory_121.txt
 
-Figure_4_b_prob_occurance:
+Figure_4_b_spatial_probability_distribution:
 Open the file kde_passive_RT.ipynb and run all the cells together
 Need the files: ini_state_q1.csv , xy_part_1.csv to xy_part_8.csv
 
